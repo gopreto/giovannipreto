@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    /*font-family: 'IBM Plex Sans', sans-serif;*/
+}
+
+/* Upper container */
+
+.wrapper {
+    width: 1186px;
+    margin: 0 auto;
+}
+
+.upper-container {
+    display: flex;
+    align-items:flex-end ;
+    height: 418px;
+    /*background: #b66262;*/
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{ /* Hello! I'm Giovanni */
+
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 102.87px;
+    color: #021718;
+    margin-bottom: 5px;
+    }
+    
+    header h2{ /* Glad you're here*/
+
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 55px;
+        color: #021718;
+        }
+
+/* Lower container */
+
+.lower-container {
+    display: flex;
+    /*background: #6071a9;*/
+    height: 518px;
+
+}
+main p{
+margin-top: 37px;
+font-size: 30px;
+line-height: 42px;
+color: #3D3D3D;
+margin-bottom: 30px;
+}
+
+/* Social Icons */
+
+.social-icons {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 20px;
+}
+
+/* Seleciona o primeiro icone pra tirar a margem dele */
+
+.social-icons a:nth-last-of-type(3) {     
+    margin-left: 0;
+}
