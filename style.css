@@ -1,80 +1,85 @@
-*{
-    box-sizing: border-box;
-margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-    font-family: "Inter", sans-serif;
-    /*font-family: 'IBM Plex Sans', sans-serif;*/
+body {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-/* Upper container */
+.smspacer {
+  padding-top: 2em;
+}
+.lgspacer {
+  padding-top: 5em;
+}
 
 .wrapper {
-    width: 1186px;
-    margin: 0 auto;
+  width: 950px;
+  margin: 0 auto;
 }
 
-.upper-container {
-    display: flex;
-    align-items:flex-end ;
-    height: 418px;
-    /*background: #b66262;*/
+/*-------- NAVIGATION BAR --------*/
+
+.navigation ul {
+  list-style-type: none;
+  padding-right: 10em;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navigation li {
+  float: right;
 }
 
-header h1{ /* Hello! I'm Giovanni */
-
-    font-weight: 700;
-    font-size: 85px;
-    line-height: 102.87px;
-    color: #021718;
-    margin-bottom: 5px;
-    }
-    
-    header h2{ /* Glad you're here*/
-
-        font-weight: 400;
-        font-size: 45px;
-        line-height: 55px;
-        color: #021718;
-        }
-
-/* Lower container */
-
-.lower-container {
-    display: flex;
-    /*background: #6071a9;*/
-    height: 518px;
-
-}
-main p{
-margin-top: 37px;
-font-size: 30px;
-line-height: 42px;
-color: #3D3D3D;
-margin-bottom: 30px;
+.navigation li a {
+  display: block;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #9e9e9e;
 }
 
-/* Social Icons */
-
-.social-icons {
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
+.navigation li a:hover:not(.active) {
+  color: black;
 }
 
-.social-icons a {
-    margin: 0 20px;
+/*-------- HERO CONTENT --------*/
+
+.hero-container {
+  display: flex;
+  padding: 2em;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Seleciona o primeiro icone pra tirar a margem dele */
+.hero-image {
+  width: auto;
+  padding: 0px 50px;
+}
 
-.social-icons a:nth-last-of-type(3) {     
-    margin-left: 0;
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #021718;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+#introtext {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+/*-------- FOOTER --------*/
+
+.figcap {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #6a6a6a;
 }
