@@ -237,14 +237,6 @@ footer{
     margin-top: 200px;
 }
 
-footer .link_btn{
-    float: right;
-}
-
-.clear{
-    clear: both;
-}
-
 footer .container-lg{
     border-top: 1px solid #000000;
     padding: 40px 0;
