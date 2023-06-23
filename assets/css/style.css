@@ -235,10 +235,11 @@ section.about p{
 footer{
     overflow: hidden;
     margin-top: 200px;
+    padding-bottom: 50px;
 }
 
-footer .container-lg{
-    border-top: 1px solid #000000;
+footer .border-top{
+    border-top: 1px solid #000000!important;
     padding: 40px 0;
 }
 
@@ -260,6 +261,7 @@ footer p{
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
+    padding: 10px 0;
 }
 
 .link_btn:hover{
@@ -297,7 +299,7 @@ section.banner p{
 }
 
 .box_content{
-    padding: 2rem;
+    padding: 4rem;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 60px;
 }
@@ -355,7 +357,7 @@ section h3{
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
-    line-height: 73px;
+    line-height: 1.1;
     color: #000000;
 }
 
@@ -363,7 +365,7 @@ section h4{
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
-    line-height: 77px;
+    line-height: 1.1;
     letter-spacing: -0.022em;
 
     color: #000000;
@@ -373,8 +375,8 @@ section h5{
     font-style: normal;
     font-weight: 700;
     font-size: 33px;
-    line-height: 77px;
-    letter-spacing: -0.022em;
+    line-height: 1.4;
+    letter-spacing: -0.726px;
 
     color: #000000;
 }
@@ -435,7 +437,7 @@ section ul li{
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 175%;
+    line-height: 1.2;
     color: #000000;
 }
 

@@ -76,4 +76,96 @@
         font-size: 25px;
         line-height: 30px;
     }
+
+    section.currently_area .box div:nth-child(2){
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+    }
+
+    section h3{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    section p{
+        font-size: 26px;
+        line-height: 150%;
+    }
+
+    section ul li{
+        font-size: 28px;
+        line-height: 150%;
+    }
+
+    .box_content{
+        padding: 3rem 2rem;
+        border-radius: 40px;
+    }
+
+    .box_content h5{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .box_content ul li{
+        font-size: 25px;
+        line-height: 150%;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    section h5{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:500px){
+    section.banner h1{
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    section.banner h3{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    section.banner p{
+        line-height: 150%;
+        font-size: 25px;
+    }
+
+    .box_content blockquote{
+        font-size: 22px;
+        line-height: 150%;
+    }
+
+    section h4{
+        font-size: 33px;
+    }
+
+    section p{
+        font-size: 23px;
+    }
+
+    .box_content ul li{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    section ul li{
+        font-size: 22px;
+    }
+
+    .link_btn{
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    section.banner{
+        padding: 60px 0;
+    }
 }
