@@ -39,6 +39,20 @@
         display: block;
     }
 
+    header ul.menu_container li:not(.active) a{
+        text-decoration: line-through;
+        color: rgba(255, 255, 255, 0.75);
+    }
+    
+    header ul.menu_container li.active a{
+        color: white;
+    }
+    
+    header ul.menu_container li a:hover{
+        text-decoration: none;
+        color: white;
+    }
+
     header .logo{
         margin-bottom: 6px;
     }
