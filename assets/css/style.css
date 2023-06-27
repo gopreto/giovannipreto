@@ -18,17 +18,17 @@ html,body{
 
 /* Header */
 
-header.home_header{
+/* header.home_header{
     position: fixed;
     width: 100%;
     background: #FFF;
     height: 120px;
     padding-bottom: 20px;
-}
+} */
 
 header{
     background-color: transparent;
-    height: 100px;
+    height: 80px;
 }
 
 header .container-lg{
@@ -66,7 +66,7 @@ header nav.desktop_nav ul li a{
 }
 
 header ul.menu_container li:not(.active) a{
-    text-decoration: line-through;
+    text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -197,6 +197,10 @@ section.projects .project_card{
     justify-content: space-between;
 }
 
+section.projects .margin_fix{
+    margin-left: -60px;
+}
+
 section.projects .project_card p{
     font-style: normal;
     font-weight: 400;
@@ -274,12 +278,11 @@ section.about p{
 footer{
     overflow: hidden;
     margin-top: 200px;
-    padding-bottom: 50px;
 }
 
 footer .border-top{
     border-top: 1px solid #000000!important;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 footer p{
