@@ -9,24 +9,12 @@
 }
 
 @media screen and (max-width:992px){
-    section.introduction h1{
-        font-size: 70px;
-        line-height: 80px;
+    section.projects .margin_fix{
+        margin-left: -30px;
     }
 
-    section.projects .project_card .btn_project{
-        font-size: 24px;
-        line-height: 24px;
-    }
-
-    section.projects .project_card h3{
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    section.projects .project_card h4{
-        font-size: 23px;
-        line-height: 25px;
+    section.introduction{
+        padding: 100px 0;
     }
 }
 
@@ -39,133 +27,46 @@
         display: block;
     }
 
-    header .logo{
-        margin-bottom: 6px;
-    }
-
-    section.introduction h2{
-        font-size: 40px;
-        line-height: 45px;
-    }
-
-    section.introduction p{
-        font-size: 25px;
-    }
-
     .contact_icons{
         justify-content: center;
         width: 100%;
     }
 
-    section.projects h2{
-        font-size: 60px;
-        line-height: 70px;
-        text-align: center;
+    section.projects{
+        padding: 50px 0;
     }
 
-    section.about {
-        padding: 60px 0;
+    section.introduction h1{
+        font-size: 52px;
+    }
+
+    section.projects h2{
+        font-size: 52px;
     }
 
     section.about h2{
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 52px;
     }
 
-    section.about p{
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    section.currently_area .box div:nth-child(2){
-        font-size: 25px;
-        line-height: 25px;
-        letter-spacing: -0.5px;
-    }
-
-    section h3{
-        font-size: 50px;
-        line-height: 60px;
-    }
-
-    section p{
-        font-size: 26px;
-        line-height: 150%;
-    }
-
-    section ul li{
-        font-size: 28px;
-        line-height: 150%;
-    }
-
-    .box_content{
-        padding: 3rem 2rem;
-        border-radius: 40px;
-    }
-
-    .box_content h5{
-        font-size: 28px;
-        line-height: 30px;
-    }
-
-    .box_content ul li{
-        font-size: 25px;
-        line-height: 150%;
-    }
-
-    footer{
-        margin-top: 100px;
-    }
-
-    section h5{
-        font-size: 24px;
+    section.about{
+        padding: 60px 0;
     }
 }
 
 @media screen and (max-width:500px){
-    section.banner h1{
-        font-size: 50px;
-        line-height: 55px;
-    }
-
-    section.banner h3{
-        font-size: 32px;
-        line-height: 36px;
-    }
-
-    section.banner p{
-        line-height: 150%;
-        font-size: 25px;
-    }
-
-    .box_content blockquote{
-        font-size: 22px;
-        line-height: 150%;
-    }
-
-    section h4{
-        font-size: 33px;
-    }
-
-    section p{
-        font-size: 23px;
-    }
-
-    .box_content ul li{
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-
-    section ul li{
-        font-size: 22px;
-    }
-
-    .link_btn{
-        font-size: 25px;
-        line-height: 28px;
-    }
-
     section.banner{
         padding: 60px 0;
+    }
+
+    section.introduction h1{
+        font-size: 38px;
+    }
+
+    section.projects h2{
+        font-size: 38px;
+    }
+
+    section.about h2{
+        font-size: 38px;
     }
 }

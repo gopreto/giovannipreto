@@ -138,9 +138,7 @@ header nav.mobile_nav ul li a{
 
 section.introduction{
     height: auto;
-    /* max-height: calc(100vh - 100px); */
-    min-height: 800px;
-    padding: 50px 0px 50px 0px;
+    padding: 200px 0px 125px 0px;
 }
 
 
@@ -273,7 +271,7 @@ section.projects .project_card .btn_project:hover{
 /* About Section */
 
 section.about{
-    padding: 90px 0px 60px 0px;
+    padding: 80px 0;
 }
 
 section.about h2{
@@ -296,7 +294,6 @@ section.about p{
 
 footer{
     overflow: hidden;
-    margin-top: 200px;
 }
 
 footer .border-top{
