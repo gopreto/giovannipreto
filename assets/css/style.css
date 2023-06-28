@@ -56,8 +56,14 @@ header .logo{
     font-weight: 400;
     font-size: 16px;
     line-height: 34px;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+header .logo:hover{
+    color: #000000;
 }
 
 header nav.desktop_nav ul{
