@@ -6,6 +6,10 @@
     .box_content{
         padding: 67.5px;
     }
+
+    .container-lg{
+        max-width: 1200px!important;
+    }
 }
 
 @media screen and (max-width:992px){
