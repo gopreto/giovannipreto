@@ -30,6 +30,7 @@
     .contact_icons{
         justify-content: center;
         width: 100%;
+        margin-top: 18px;
     }
 
     section.projects{

@@ -27,8 +27,8 @@ function handleMobileMenu(){
     }
 }
 
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("ul.menu_container li");
+const sections = document.querySelectorAll(".section");
+const navLi = document.querySelectorAll(".navegation-item");
 window.onscroll = () => {
   var current = "";
 
