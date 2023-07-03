@@ -2,10 +2,6 @@
     section ul{
         margin-left: 4rem;
     }
-
-    .container-lg{
-        max-width: 1200px!important;
-    }
 }
 
 @media screen and (max-width:992px){
@@ -52,6 +48,15 @@
     section.about{
         padding: 60px 0;
     }
+
+    .container-lg{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .box_content{
+        padding: 3rem 1rem;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -69,5 +74,13 @@
 
     section.about h2{
         font-size: 38px;
+    }
+
+    .container-lg{
+        padding: 0 3%;
+    }
+
+    section h3{
+        font-size: 35px;
     }
 }

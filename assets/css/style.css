@@ -16,6 +16,12 @@ html,body{
     margin-top: 5rem!important;
 }
 
+.container-lg{
+    max-width: 1140px!important;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
 /* Header */
 
 header.home_header{
