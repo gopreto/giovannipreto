@@ -2,6 +2,16 @@
     section ul{
         margin-left: 4rem;
     }
+
+    .border__radius__fix{
+        border-radius: 45px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .border__radius__fix{
+        border-radius: 40px;
+    }
 }
 
 @media screen and (max-width:992px){
@@ -11,6 +21,10 @@
 
     section.introduction{
         padding: 100px 0;
+    }
+
+    .border__radius__fix{
+        border-radius: 50px;
     }
 }
 
@@ -57,6 +71,10 @@
     .box_content{
         padding: 3rem 1rem;
     }
+
+    .border__radius__fix{
+        border-radius: 40px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -82,5 +100,15 @@
 
     section h3{
         font-size: 35px;
+    }
+
+    .border__radius__fix{
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .border__radius__fix{
+        border-radius: 30px;
     }
 }
