@@ -198,6 +198,10 @@ section.introduction p{
     color: #9E9E9E;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 /* Projects Section */
 
 section.projects{
